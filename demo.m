@@ -1,6 +1,6 @@
 %% Simulate a polarimetric SAR (PolSAR) image from an optical image
 
-A = double(imread('./data/lena.tif')); % amplitude image
+A = double(imread('./images/lena.tif')); % amplitude image
 L = 8;                          % number of looks
 mrows = size(A,1);              % number of rows
 ncols = size(A,2);              % number of columns
